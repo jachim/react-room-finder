@@ -1,11 +1,11 @@
+import React from 'react';
 import { Button, Box } from '@chakra-ui/core';
 import {Formik, Form, FormikState, FormikHelpers} from 'formik';
-import React from 'react';
-import NumberInput from './NumberInput';
 import { FaSearch } from "react-icons/fa"
 import {SearchFormValues} from "../../model/SearchFormValues";
-import {SearchFormSchema} from "./Schema";
-import DateInput from "./DateInput";
+import {SearchFormSchema} from "./SearchFormSchema";
+import DateInput from "../Form/DateInput";
+import NumberInput from "../Form/NumberInput";
 
 interface IProps {
   onSubmit: (data: SearchFormValues) => void,

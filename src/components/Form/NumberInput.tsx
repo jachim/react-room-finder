@@ -4,7 +4,6 @@ import {
   FormLabel,
   FormErrorMessage,
   FormHelperText,
-  Input,
   Collapse, NumberInput as BaseNumberInput, NumberInputField, NumberInputStepper, NumberDecrementStepper, NumberIncrementStepper
 } from "@chakra-ui/core";
 import { Field } from "formik";
